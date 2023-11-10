@@ -4,6 +4,8 @@
 // Problem No: 2
 // Solution by: Saifullah (ICE 21)
 
+// Problem Topics: array, 2d array, math
+
 #include <stdio.h>
 
 int main()
