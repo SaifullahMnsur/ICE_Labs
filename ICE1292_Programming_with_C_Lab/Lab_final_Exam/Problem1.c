@@ -4,6 +4,8 @@
 // Problem No: 1
 // Solution by: Saifullah (ICE 21)
 
+// Problem Topics: basic operations, data type, math
+
 #include <stdio.h>
 
 int main()
