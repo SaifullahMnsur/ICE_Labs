@@ -42,7 +42,7 @@ int main()
     gets(str); // taking input of the string
 
     printf("Enter the character to be deleted: ");
-    scanf(" %c", &c); // taking input of the charecter to be deleted
+    scanf("%c", &c); // taking input of the charecter to be deleted
 
     deleteChar(str, c); // calling the function to delete all occurences of the charecter
 
