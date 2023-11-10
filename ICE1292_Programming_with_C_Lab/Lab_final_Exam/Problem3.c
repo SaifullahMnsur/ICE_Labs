@@ -1,8 +1,10 @@
 // ICE1292 - Programming with C Lab
 // Exam - 2021
 
-// Problem No: 2
+// Problem No: 3
 // Solution by: Saifullah (ICE 21)
+
+// Problem Topics: charecter array, string, function, pointer
 
 #include <stdio.h>
 
