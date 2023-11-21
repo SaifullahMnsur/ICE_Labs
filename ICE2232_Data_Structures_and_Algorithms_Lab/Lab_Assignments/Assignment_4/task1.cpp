@@ -105,7 +105,9 @@ private:
     }
 
 public:
+    // constructor
     BST() : root(nullptr){};
+    // destructor
     ~BST()
     {
         // a post order operation to free memory
