@@ -1,5 +1,11 @@
+// ICE2232 - Data Structures and Algorithms Lab
+// Exam - 2022
+// Assignment: 3
+
+// Task: 2
+// Solution by: Saifullah (ICE 21)
+
 #include <iostream>
-#include <iomanip>
 
 using namespace std;
 
