@@ -1,6 +1,6 @@
 // ICE2232 - Data Structures and Algorithms Lab
 // Exam - 2022
-
+// Lab Test: 2
 // Set: 2
 // Problem No: 2
 // Solution by: Saifullah (ICE 21)
