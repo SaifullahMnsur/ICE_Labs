@@ -5,6 +5,8 @@
 // Problem No: 1
 // Solution by: Saifullah (ICE 21)
 
+// topics: tree, binary tree, binary search tree, recursion, dynamic memory, struture, tree traversal, math
+
 #include <stdio.h>
 #include <stdlib.h>
 

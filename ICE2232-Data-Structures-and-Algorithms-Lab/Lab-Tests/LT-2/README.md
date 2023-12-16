@@ -1,1 +1,1 @@
-This folder consist solutions codes of my DSA lab test-2 of my undergrad education
+This folder consist my solutions DSA lab test-2

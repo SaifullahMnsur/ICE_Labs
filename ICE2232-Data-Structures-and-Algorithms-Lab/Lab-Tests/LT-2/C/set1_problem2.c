@@ -5,6 +5,8 @@
 // Problem No: 2
 // Solution by: Saifullah (ICE 21)
 
+// topics: structure, stack, dynamic memory
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

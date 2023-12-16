@@ -5,6 +5,8 @@
 // Problem No: 1
 // Solution by: Saifullah (ICE 21)
 
+// topics: directed graph, unweighted graph, matrix, path, cycles
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
