@@ -1,0 +1,17 @@
+#pragma once
+
+#ifndef TREENODE_H
+#define TREENODE_H
+
+template <typename T>
+class treeNode
+{
+public:
+    T data;
+    treeNode *left;
+    treeNode *right;
+    treeNode(T value);
+};
+
+#include "treeNode.cpp"
+#endif

@@ -1,0 +1,43 @@
+#pragma once
+
+#ifndef BST_H
+#define BST_H
+
+#include "treeNode"
+#include "traversal"
+
+template <typename T>
+class treeNode;
+
+template <typename T>
+class traversal;
+
+template <typename T>
+class BST
+{
+private:
+    treeNode<T> *root;
+    traversal<T> traverser;
+    void insert(treeNode<T> *&root, T value);
+    bool find(treeNode<T> *root, T value);
+    treeNode<T>* address( treeNode<T> *root, T value);
+    long long depth(treeNode<T>*root, T value, long long curr_depth);
+    long long height(treeNode<T>*root, T value);
+    long long path_length(treeNode<T> *root, long long curr_depth);
+public:
+    BST();
+    void insert(T value);
+    bool find(T value);
+    treeNode<T>* address(T value);
+    
+    long long height(T value);
+    long long depth(T value);
+    long long path_length();
+    void inorder();
+    void preorder();
+    void postorder();
+};
+
+#include "BST.cpp"
+
+#endif

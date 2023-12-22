@@ -1,0 +1,19 @@
+#pragma once
+
+#ifndef TRAVERSAL_H
+#define TRAVERSAL_H
+
+#include "treeNode"
+
+template <typename T>
+class traversal
+{
+public:
+    void preorder(treeNode<T> *root);
+    void inorder(treeNode<T> *root);
+    void postorder(treeNode<T> *root);
+};
+
+#include "traversal.cpp"
+
+#endif
