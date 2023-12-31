@@ -1,0 +1,26 @@
+#pragma once
+
+#ifndef SLL_H
+#define SLL_H
+
+template <typename T>
+class nodeSLL;
+
+template <typename T>
+class SLL
+{
+private:
+    nodeSLL<T> *head;
+    size_t length;
+public:
+    SLL();
+    ~SLL();
+    void insert_back(T value);
+    void insert_front(T value);
+    void insert(T value, size_t position);
+    void print();
+    size_t size();
+};
+#include "SLL.cpp"
+
+#endif

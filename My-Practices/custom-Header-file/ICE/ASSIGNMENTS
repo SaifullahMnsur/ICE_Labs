@@ -1,0 +1,8 @@
+#ifndef ASSIGNMENTS_H
+#define ASSIGNMENTS_H
+
+#include "nodes"
+#include "linkedlist"
+#include "BST"
+
+#endif

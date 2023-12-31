@@ -1,0 +1,19 @@
+#pragma once
+
+#ifndef NODESLL_H
+#define NODESLL_H
+
+template <typename T>
+class nodeSLL
+{
+public:
+    T data;
+    nodeSLL<T> *next;
+    nodeSLL();
+    nodeSLL(T value);
+    nodeSLL(T value, nodeSLL<T> *next_node);
+};
+
+#include "nodeSLL.cpp"
+
+#endif

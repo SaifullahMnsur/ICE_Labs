@@ -30,11 +30,12 @@ function onFormSubmit(event) {
   
         var folderId = ''; // assume folder id
         var folder = ''; // assume folder
-        if (courseCode === 'MATH2221') {
-          folderId = '1-pYh4A_mOOVnQFPrWqX61WOamqWOPYgH'; // math2221 folder id
+        // handle exceptional cases as well
+        if (courseCode === 'MATH2221') { 
+          folderId = 'EXCEPTIONAL_CASE_FOLDER_ID_1'; // math2221 folder id
           folder = DriveApp.getFolderById(folderId);
         } else if (courseCode === 'Books') {
-          folderId = '18dOc-Zpaf3fAsAdQ9JxlhnkfxCCT9NeD'; // books folder id
+          folderId = 'EXCEPTIONAL_CASE_FOLDER_ID_2'; // books folder id
           folder = DriveApp.getFolderById(folderId);
         } else {
           var mainFolderId = getSemesterFolderId(courseCode); // get the folder id of that semester
@@ -154,15 +155,15 @@ function onFormSubmit(event) {
   function getSemesterFolderId(courseCode) {
     var len = courseCode.length - 1;
     if (courseCode[len - 3] === '2' && courseCode[len - 2] === '2') // 2-2 semester folder id
-      return '1dbIDI473fskhf6oxWbB531zqBZzlkdW-';
+      return '2_2_SEMESTER_FOLDER_ID';
     if (courseCode[len - 3] === '3' && courseCode[len - 2] === '1') // 3-1 semester folder id
-      return '1svmWF3PQrPU0JvTXVHvrjPN8O83fXdoZ';
+      return '3_1_SEMESTER_FOLDER_ID';
     if (courseCode[len - 3] === '3' && courseCode[len - 2] === '2') // 3-2 semester folder id
-      return '1ULaTkcx-jUDDWxcIp4tjNKOnabjJHIjo';
+      return '3_2_SEMESTER_FOLDER_ID';
     if (courseCode[len - 3] === '4' && courseCode[len - 2] === '1') // 4-1 semester folder id
-      return '1YhtACIvJ9nQb6L3bgFhHqltgMm-tKeKN';
+      return '4_1_SEMESTER_FOLDER_ID';
     if (courseCode[len - 3] === '2' && courseCode[len - 2] === '2') // 4-2 semester folder id
-      return '1SurU19a0ikf1jU7Krl1y0NhlEvAqTkIf';
+      return '4_2_SEMESTER_FOLDER_ID';
     return '';
   }
   

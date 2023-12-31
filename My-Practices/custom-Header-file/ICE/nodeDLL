@@ -1,0 +1,18 @@
+#pragma once
+
+#ifndef NODEDLL_H
+#define NODEDLL_H
+
+template <typename T>
+class nodeDLL
+{
+public:
+    T data;
+    nodeDLL *prev;
+    nodeDLL *next;
+    nodeDLL(T value);
+    nodeDLL(T value, nodeDLL<T> &prev);
+    nodeDLL(T value, nodeDLL<T> &prev, nodeDLL<T> &next_node);
+};
+#include "nodeDLL.cpp"
+#endif
