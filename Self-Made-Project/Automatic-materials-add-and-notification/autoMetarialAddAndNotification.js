@@ -1,5 +1,5 @@
 function onFormSubmit(event) {
-    var historySheetId = 'ADD_YOUT_GOOGLE_SHEET_ID'; // store when code executed
+    var historySheetId = 'EXECUTION_HISTORY_SHEET_ID'; // store when code executed
     var historySheetFile = SpreadsheetApp.openById(historySheetId);
     var sheet = historySheetFile.getSheetByName('Sheet1');
   
